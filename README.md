@@ -14,19 +14,20 @@ import styled from 'styled-components'
 import { respondAt } from '../hooks/respondAt'
 
 const Title = styled.h1`
-	font-size: 5em;
-
-	// inside of your styled component call the function plus the breakpoint key
-
-	${respondAt.sm`
-    font-size: 10em;`}
+  font-size: 5em;
+  
+  // inside of your styled component call the function plus the breakpoint key
+  ${respondAt.sm`
+    font-size: 10em;
+   `}
 `
+
 export default function Home() {
-	return (
-		<div>
-			<Title>Hello, World</Title>
-		</div>
-	)
+  return (
+    <div>
+	<Title>Hello, World</Title>
+    </div>
+  )
 }
 ```
 
