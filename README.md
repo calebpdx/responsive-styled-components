@@ -17,6 +17,7 @@ const Title = styled.h1`
   font-size: 5em;
   
   // inside of your styled component call the function plus the breakpoint key
+  
   ${respondAt.sm`
     font-size: 10em;
    `}
